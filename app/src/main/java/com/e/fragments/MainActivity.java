@@ -48,8 +48,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             fragmentTransaction.addToBackStack(null);
             fragmentTransaction.commit();
             btnFragment.setText("Load FirstFragment");
-            Status = true
-            ;
+            Status = true;
+
 
         }
     }
